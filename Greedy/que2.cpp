@@ -2,5 +2,5 @@
 using namespace std;
 
 int main(){
-    cout<<"Greedy";
+    cout<<"Greedy algo";
 }
