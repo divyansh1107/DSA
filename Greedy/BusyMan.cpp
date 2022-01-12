@@ -30,7 +30,7 @@ int main(){
             }
         }
         cout<<res<<endl;
-        v.clear(;
+        v.clear();
 
     }
 }
