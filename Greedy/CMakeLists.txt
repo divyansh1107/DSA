@@ -3,4 +3,4 @@ project(Greedy)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Greedy que2.cpp)
+add_executable(Greedy BusyMan.cpp)

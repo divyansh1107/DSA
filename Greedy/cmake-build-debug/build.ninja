@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/purid/Desktop/DSA/Greedy/cmake-build-debug/
 
 build cmake_object_order_depends_target_Greedy: phony || CMakeFiles/Greedy.dir
 
-build CMakeFiles/Greedy.dir/que2.cpp.obj: CXX_COMPILER__Greedy_Debug C$:/Users/purid/Desktop/DSA/Greedy/que2.cpp || cmake_object_order_depends_target_Greedy
-  DEP_FILE = CMakeFiles\Greedy.dir\que2.cpp.obj.d
+build CMakeFiles/Greedy.dir/BusyMan.cpp.obj: CXX_COMPILER__Greedy_Debug C$:/Users/purid/Desktop/DSA/Greedy/BusyMan.cpp || cmake_object_order_depends_target_Greedy
+  DEP_FILE = CMakeFiles\Greedy.dir\BusyMan.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Greedy.dir
   OBJECT_FILE_DIR = CMakeFiles\Greedy.dir
@@ -63,7 +63,7 @@ build CMakeFiles/Greedy.dir/que2.cpp.obj: CXX_COMPILER__Greedy_Debug C$:/Users/p
 #############################################
 # Link the executable Greedy.exe
 
-build Greedy.exe: CXX_EXECUTABLE_LINKER__Greedy_Debug CMakeFiles/Greedy.dir/que2.cpp.obj
+build Greedy.exe: CXX_EXECUTABLE_LINKER__Greedy_Debug CMakeFiles/Greedy.dir/BusyMan.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Greedy.dir
