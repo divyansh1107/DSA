@@ -41,43 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/purid/Desktop/DSA/Tries/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Tries
+# Object build statements for EXECUTABLE target 1.Unique_prefix
 
 
 #############################################
-# Order-only phony target for Tries
+# Order-only phony target for 1.Unique_prefix
 
-build cmake_object_order_depends_target_Tries: phony || CMakeFiles/Tries.dir
+build cmake_object_order_depends_target_1.Unique_prefix: phony || CMakeFiles/1.Unique_prefix.dir
 
-build CMakeFiles/Tries.dir/main.cpp.obj: CXX_COMPILER__Tries_Debug C$:/Users/purid/Desktop/DSA/Tries/main.cpp || cmake_object_order_depends_target_Tries
-  DEP_FILE = CMakeFiles\Tries.dir\main.cpp.obj.d
+build CMakeFiles/1.Unique_prefix.dir/1.Unique_prefix.cpp.obj: CXX_COMPILER__1.2eUnique_prefix_Debug C$:/Users/purid/Desktop/DSA/Tries/1.Unique_prefix.cpp || cmake_object_order_depends_target_1.Unique_prefix
+  DEP_FILE = CMakeFiles\1.Unique_prefix.dir\1.Unique_prefix.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Tries.dir
-  OBJECT_FILE_DIR = CMakeFiles\Tries.dir
-
-build CMakeFiles/Tries.dir/1.Unique_prefix.cpp.obj: CXX_COMPILER__Tries_Debug C$:/Users/purid/Desktop/DSA/Tries/1.Unique_prefix.cpp || cmake_object_order_depends_target_Tries
-  DEP_FILE = CMakeFiles\Tries.dir\1.Unique_prefix.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Tries.dir
-  OBJECT_FILE_DIR = CMakeFiles\Tries.dir
+  OBJECT_DIR = CMakeFiles\1.Unique_prefix.dir
+  OBJECT_FILE_DIR = CMakeFiles\1.Unique_prefix.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Tries
+# Link build statements for EXECUTABLE target 1.Unique_prefix
 
 
 #############################################
-# Link the executable Tries.exe
+# Link the executable 1.Unique_prefix.exe
 
-build Tries.exe: CXX_EXECUTABLE_LINKER__Tries_Debug CMakeFiles/Tries.dir/main.cpp.obj CMakeFiles/Tries.dir/1.Unique_prefix.cpp.obj
+build 1.Unique_prefix.exe: CXX_EXECUTABLE_LINKER__1.2eUnique_prefix_Debug CMakeFiles/1.Unique_prefix.dir/1.Unique_prefix.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Tries.dir
+  OBJECT_DIR = CMakeFiles\1.Unique_prefix.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Tries.exe
-  TARGET_IMPLIB = libTries.dll.a
-  TARGET_PDB = Tries.exe.dbg
+  TARGET_FILE = 1.Unique_prefix.exe
+  TARGET_IMPLIB = lib1.Unique_prefix.dll.a
+  TARGET_PDB = 1.Unique_prefix.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TRY
+
+
+#############################################
+# Order-only phony target for TRY
+
+build cmake_object_order_depends_target_TRY: phony || CMakeFiles/TRY.dir
+
+build CMakeFiles/TRY.dir/TRY.cpp.obj: CXX_COMPILER__TRY_Debug C$:/Users/purid/Desktop/DSA/Tries/TRY.cpp || cmake_object_order_depends_target_TRY
+  DEP_FILE = CMakeFiles\TRY.dir\TRY.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\TRY.dir
+  OBJECT_FILE_DIR = CMakeFiles\TRY.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TRY
+
+
+#############################################
+# Link the executable TRY.exe
+
+build TRY.exe: CXX_EXECUTABLE_LINKER__TRY_Debug CMakeFiles/TRY.dir/TRY.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TRY.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TRY.exe
+  TARGET_IMPLIB = libTRY.dll.a
+  TARGET_PDB = TRY.exe.dbg
 
 
 #############################################
@@ -105,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Tries: phony Tries.exe
+build 1.Unique_prefix: phony 1.Unique_prefix.exe
+
+build TRY: phony TRY.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +144,7 @@ build Tries: phony Tries.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/Tries/cmake-build-debug
 
-build all: phony Tries.exe
+build all: phony 1.Unique_prefix.exe TRY.exe
 
 # =============================================================================
 # Built-in targets

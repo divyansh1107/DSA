@@ -1,3 +1,8 @@
 # ninja log v5
+2	1869	6639633424651124	CMakeFiles/Tries.dir/1.Unique_prefix.cpp.obj	41903ed1e90761a0
 0	463	6632949391158986	CMakeFiles/Tries.dir/main.cpp.obj	8e0e17bb411ee1ff
-476	856	6632949394914889	Tries.exe	b80c3aa05687f79
+1	1149	6639690541139181	CMakeFiles/1.Unique_prefix.dir/TRY.cpp.obj	fbc4082b708c2442
+1	342	6639692128554658	build.ninja	5fab354935ffbc3a
+1	1184	6639690229727090	CMakeFiles/1.Unique_prefix.dir/1.Unique_prefix.cpp.obj	8f788de37319b2a7
+2	1264	6639690813615262	CMakeFiles/TRY.dir/TRY.cpp.obj	482eaa80cf430bc1
+2	174	6639691271601090	TRY.exe	b5164413d81d37dc

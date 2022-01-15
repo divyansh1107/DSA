@@ -1,3 +1,4 @@
-C:/Users/purid/Desktop/DSA/Tries/cmake-build-debug/CMakeFiles/Tries.dir
+C:/Users/purid/Desktop/DSA/Tries/cmake-build-debug/CMakeFiles/1.Unique_prefix.dir
+C:/Users/purid/Desktop/DSA/Tries/cmake-build-debug/CMakeFiles/TRY.dir
 C:/Users/purid/Desktop/DSA/Tries/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/purid/Desktop/DSA/Tries/cmake-build-debug/CMakeFiles/rebuild_cache.dir

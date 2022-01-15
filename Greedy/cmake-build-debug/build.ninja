@@ -41,48 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/purid/Desktop/DSA/Greedy/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Greedy
+# Object build statements for EXECUTABLE target Load_balancer
 
 
 #############################################
-# Order-only phony target for Greedy
+# Order-only phony target for Load_balancer
 
-build cmake_object_order_depends_target_Greedy: phony || CMakeFiles/Greedy.dir
+build cmake_object_order_depends_target_Load_balancer: phony || CMakeFiles/Load_balancer.dir
 
-build CMakeFiles/Greedy.dir/BusyMan.cpp.obj: CXX_COMPILER__Greedy_Debug C$:/Users/purid/Desktop/DSA/Greedy/BusyMan.cpp || cmake_object_order_depends_target_Greedy
-  DEP_FILE = CMakeFiles\Greedy.dir\BusyMan.cpp.obj.d
+build CMakeFiles/Load_balancer.dir/Load_balancer.cpp.obj: CXX_COMPILER__Load_balancer_Debug C$:/Users/purid/Desktop/DSA/Greedy/Load_balancer.cpp || cmake_object_order_depends_target_Load_balancer
+  DEP_FILE = CMakeFiles\Load_balancer.dir\Load_balancer.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Greedy.dir
-  OBJECT_FILE_DIR = CMakeFiles\Greedy.dir
+  OBJECT_DIR = CMakeFiles\Load_balancer.dir
+  OBJECT_FILE_DIR = CMakeFiles\Load_balancer.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Greedy
+# Link build statements for EXECUTABLE target Load_balancer
 
 
 #############################################
-# Link the executable Greedy.exe
+# Link the executable Load_balancer.exe
 
-build Greedy.exe: CXX_EXECUTABLE_LINKER__Greedy_Debug CMakeFiles/Greedy.dir/BusyMan.cpp.obj
+build Load_balancer.exe: CXX_EXECUTABLE_LINKER__Load_balancer_Debug CMakeFiles/Load_balancer.dir/Load_balancer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Greedy.dir
+  OBJECT_DIR = CMakeFiles\Load_balancer.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Greedy.exe
-  TARGET_IMPLIB = libGreedy.dll.a
-  TARGET_PDB = Greedy.exe.dbg
+  TARGET_FILE = Load_balancer.exe
+  TARGET_IMPLIB = libLoad_balancer.dll.a
+  TARGET_PDB = Load_balancer.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BusyMan
 
 
 #############################################
-# Utility command for edit_cache
+# Order-only phony target for BusyMan
 
-build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\purid\Desktop\DSA\Greedy\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
+build cmake_object_order_depends_target_BusyMan: phony || CMakeFiles/BusyMan.dir
 
-build edit_cache: phony CMakeFiles/edit_cache.util
+build CMakeFiles/BusyMan.dir/BusyMan.cpp.obj: CXX_COMPILER__BusyMan_Debug C$:/Users/purid/Desktop/DSA/Greedy/BusyMan.cpp || cmake_object_order_depends_target_BusyMan
+  DEP_FILE = CMakeFiles\BusyMan.dir\BusyMan.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\BusyMan.dir
+  OBJECT_FILE_DIR = CMakeFiles\BusyMan.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BusyMan
+
+
+#############################################
+# Link the executable BusyMan.exe
+
+build BusyMan.exe: CXX_EXECUTABLE_LINKER__BusyMan_Debug CMakeFiles/BusyMan.dir/BusyMan.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BusyMan.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BusyMan.exe
+  TARGET_IMPLIB = libBusyMan.dll.a
+  TARGET_PDB = BusyMan.exe.dbg
 
 
 #############################################
@@ -97,9 +119,57 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Biased
+
+
+#############################################
+# Order-only phony target for Biased
+
+build cmake_object_order_depends_target_Biased: phony || CMakeFiles/Biased.dir
+
+build CMakeFiles/Biased.dir/Biased.cpp.obj: CXX_COMPILER__Biased_Debug C$:/Users/purid/Desktop/DSA/Greedy/Biased.cpp || cmake_object_order_depends_target_Biased
+  DEP_FILE = CMakeFiles\Biased.dir\Biased.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Biased.dir
+  OBJECT_FILE_DIR = CMakeFiles\Biased.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Biased
+
+
+#############################################
+# Link the executable Biased.exe
+
+build Biased.exe: CXX_EXECUTABLE_LINKER__Biased_Debug CMakeFiles/Biased.dir/Biased.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Biased.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Biased.exe
+  TARGET_IMPLIB = libBiased.dll.a
+  TARGET_PDB = Biased.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\purid\Desktop\DSA\Greedy\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+# =============================================================================
 # Target aliases.
 
-build Greedy: phony Greedy.exe
+build Biased: phony Biased.exe
+
+build BusyMan: phony BusyMan.exe
+
+build Load_balancer: phony Load_balancer.exe
 
 # =============================================================================
 # Folder targets.
@@ -109,7 +179,7 @@ build Greedy: phony Greedy.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/Greedy/cmake-build-debug
 
-build all: phony Greedy.exe
+build all: phony Load_balancer.exe BusyMan.exe Biased.exe
 
 # =============================================================================
 # Built-in targets

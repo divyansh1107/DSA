@@ -1,8 +1,21 @@
 # ninja log v5
 1	465	6632939902120984	CMakeFiles/Greedy.dir/main.cpp.obj	259c2fdd0d126a2
-2	181	6632945246184867	Greedy.exe	93dc537d54184873
-1	432	6637174709043878	build.ninja	6824ee3086b12aa
+2	307	6639679737743197	CMakeFiles/Greedy.dir/LOAD_BALANCER.cpp.obj	eb5cbf8583595ae6
+1	332	6639715024085428	build.ninja	6824ee3086b12aa
 2	361	6632945000965683	CMakeFiles/Greedy.dir/que2.cpp.obj	e380acc57110427c
-0	334	6637174709043878	build.ninja	6824ee3086b12aa
-0	532	6637174715296154	CMakeFiles/Greedy.dir/BusyMan.cpp.obj	f8f294829c9b48d7
-532	734	6637174717266152	Greedy.exe	18a343435d441ac6
+0	849	6639696724887950	CMakeFiles/Biased.dir/Biased.cpp.obj	ae12179c0388e973
+1	581	6637197248664525	CMakeFiles/Greedy.dir/BusyMan.cpp.obj	f8f294829c9b48d7
+4	1127	6637197254115079	CMakeFiles/Greedy.dir/Biased_Standing.cpp.obj	3d5fdc7b484e226c
+2	868	6639634869674144	CMakeFiles/Greedy.dir/Biased.cpp.obj	34ff2ada35fec51f
+851	995	6639696726297975	Biased.exe	1c262942192ab76e
+0	561	6639694416640147	CMakeFiles/BusyMan.dir/BusyMan.cpp.obj	d7e9d61aa3363562
+561	713	6639694418115777	BusyMan.exe	f95ac8a0b45d5eed
+0	1203	6639694969024145	CMakeFiles/B.dir/B.cpp.obj	823b868015167c9d
+0	902	6639747800165281	CMakeFiles/Load_balancer.dir/Load_balancer.cpp.obj	574ce061972f44db
+902	1057	6639747801675592	Load_balancer.exe	687f39fd7550d144
+1	866	6639748937004185	CMakeFiles/Load_balancer.dir/Load_balancer.cpp.obj	574ce061972f44db
+866	1013	6639748938437857	Load_balancer.exe	687f39fd7550d144
+2	879	6639749214690657	CMakeFiles/Load_balancer.dir/Load_balancer.cpp.obj	574ce061972f44db
+880	1027	6639749216140921	Load_balancer.exe	687f39fd7550d144
+2	875	6639749864531565	CMakeFiles/Load_balancer.dir/Load_balancer.cpp.obj	574ce061972f44db
+876	1023	6639749865971213	Load_balancer.exe	687f39fd7550d144

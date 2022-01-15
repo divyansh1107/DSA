@@ -3,4 +3,6 @@ project(Tries)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Tries main.cpp 1.Unique_prefix.cpp)
+
+add_executable(TRY TRY.cpp)
+add_executable(1.Unique_prefix 1.Unique_prefix.cpp)
