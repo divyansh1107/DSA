@@ -12,3 +12,4 @@ add_executable(BusyMan BusyMan.cpp)
 
 add_executable(Biased Biased.cpp)
 add_executable(Load_balancer Load_balancer.cpp)
+add_executable(DEFKIN DEFKIN.cpp)

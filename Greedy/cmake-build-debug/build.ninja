@@ -151,6 +151,39 @@ build Biased.exe: CXX_EXECUTABLE_LINKER__Biased_Debug CMakeFiles/Biased.dir/Bias
   TARGET_IMPLIB = libBiased.dll.a
   TARGET_PDB = Biased.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DEFKIN
+
+
+#############################################
+# Order-only phony target for DEFKIN
+
+build cmake_object_order_depends_target_DEFKIN: phony || CMakeFiles/DEFKIN.dir
+
+build CMakeFiles/DEFKIN.dir/DEFKIN.cpp.obj: CXX_COMPILER__DEFKIN_Debug C$:/Users/purid/Desktop/DSA/Greedy/DEFKIN.cpp || cmake_object_order_depends_target_DEFKIN
+  DEP_FILE = CMakeFiles\DEFKIN.dir\DEFKIN.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\DEFKIN.dir
+  OBJECT_FILE_DIR = CMakeFiles\DEFKIN.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DEFKIN
+
+
+#############################################
+# Link the executable DEFKIN.exe
+
+build DEFKIN.exe: CXX_EXECUTABLE_LINKER__DEFKIN_Debug CMakeFiles/DEFKIN.dir/DEFKIN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DEFKIN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DEFKIN.exe
+  TARGET_IMPLIB = libDEFKIN.dll.a
+  TARGET_PDB = DEFKIN.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -169,6 +202,8 @@ build Biased: phony Biased.exe
 
 build BusyMan: phony BusyMan.exe
 
+build DEFKIN: phony DEFKIN.exe
+
 build Load_balancer: phony Load_balancer.exe
 
 # =============================================================================
@@ -179,7 +214,7 @@ build Load_balancer: phony Load_balancer.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/Greedy/cmake-build-debug
 
-build all: phony Load_balancer.exe BusyMan.exe Biased.exe
+build all: phony Load_balancer.exe BusyMan.exe Biased.exe DEFKIN.exe
 
 # =============================================================================
 # Built-in targets
