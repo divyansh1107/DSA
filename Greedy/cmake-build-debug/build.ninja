@@ -196,6 +196,39 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target EXPEDI
+
+
+#############################################
+# Order-only phony target for EXPEDI
+
+build cmake_object_order_depends_target_EXPEDI: phony || CMakeFiles/EXPEDI.dir
+
+build CMakeFiles/EXPEDI.dir/EXPEDI.cpp.obj: CXX_COMPILER__EXPEDI_Debug C$:/Users/purid/Desktop/DSA/Greedy/EXPEDI.cpp || cmake_object_order_depends_target_EXPEDI
+  DEP_FILE = CMakeFiles\EXPEDI.dir\EXPEDI.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\EXPEDI.dir
+  OBJECT_FILE_DIR = CMakeFiles\EXPEDI.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target EXPEDI
+
+
+#############################################
+# Link the executable EXPEDI.exe
+
+build EXPEDI.exe: CXX_EXECUTABLE_LINKER__EXPEDI_Debug CMakeFiles/EXPEDI.dir/EXPEDI.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\EXPEDI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = EXPEDI.exe
+  TARGET_IMPLIB = libEXPEDI.dll.a
+  TARGET_PDB = EXPEDI.exe.dbg
+
+# =============================================================================
 # Target aliases.
 
 build Biased: phony Biased.exe
@@ -203,6 +236,8 @@ build Biased: phony Biased.exe
 build BusyMan: phony BusyMan.exe
 
 build DEFKIN: phony DEFKIN.exe
+
+build EXPEDI: phony EXPEDI.exe
 
 build Load_balancer: phony Load_balancer.exe
 
@@ -214,7 +249,7 @@ build Load_balancer: phony Load_balancer.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/Greedy/cmake-build-debug
 
-build all: phony Load_balancer.exe BusyMan.exe Biased.exe DEFKIN.exe
+build all: phony Load_balancer.exe BusyMan.exe Biased.exe DEFKIN.exe EXPEDI.exe
 
 # =============================================================================
 # Built-in targets
