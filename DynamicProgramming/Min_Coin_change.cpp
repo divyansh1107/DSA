@@ -44,7 +44,7 @@ int main(){
     cin>>N;
 
 
-    cout<<minCoins(N,coins,T,dp)<,endl;
+    cout<<minCoins(N,coins,T,dp)<<endl;
     cout<<minCoinBU(N,coins,T);
 
     return 0;
