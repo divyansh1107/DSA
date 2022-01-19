@@ -31,10 +31,14 @@ int maxSumSpaceOpt(int a[],int n){
         }
         max_so_far=max(current_sum,max_so_far);
     }
+    if(max_so_far<=0){
+        sort(a,a+n);
+        return a[n-1];
+    }
     return max_so_far;
 }
 int main(){
-    int arr[]={-3,2,5,-1,6,3,-2,7,-5,2};
+    int arr[]={-3,-2,5,-5,-6,-3,-2,-7,-5,-2};
     int n=sizeof(arr)/sizeof(int);
     cout<<"Max = "<<maxSum(arr,n)<<endl;
     cout<<"Max Space Optimised = "<<maxSumSpaceOpt(arr,n);
