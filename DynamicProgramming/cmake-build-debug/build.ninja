@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Maximum_Subarray_Sum
-
-
-#############################################
-# Order-only phony target for Maximum_Subarray_Sum
-
-build cmake_object_order_depends_target_Maximum_Subarray_Sum: phony || CMakeFiles/Maximum_Subarray_Sum.dir
-
-build CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj: CXX_COMPILER__Maximum_Subarray_Sum_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Maximum_Subarray_Sum.cpp || cmake_object_order_depends_target_Maximum_Subarray_Sum
-  DEP_FILE = CMakeFiles\Maximum_Subarray_Sum.dir\Maximum_Subarray_Sum.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
-  OBJECT_FILE_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Maximum_Subarray_Sum
-
-
-#############################################
-# Link the executable Maximum_Subarray_Sum.exe
-
-build Maximum_Subarray_Sum.exe: CXX_EXECUTABLE_LINKER__Maximum_Subarray_Sum_Debug CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Maximum_Subarray_Sum.exe
-  TARGET_IMPLIB = libMaximum_Subarray_Sum.dll.a
-  TARGET_PDB = Maximum_Subarray_Sum.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Fibonacci_Series
 
 
@@ -105,6 +72,105 @@ build Fibonacci_Series.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Series_Debug CMakeF
   TARGET_FILE = Fibonacci_Series.exe
   TARGET_IMPLIB = libFibonacci_Series.dll.a
   TARGET_PDB = Fibonacci_Series.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Rod_Cutting_problem
+
+
+#############################################
+# Order-only phony target for Rod_Cutting_problem
+
+build cmake_object_order_depends_target_Rod_Cutting_problem: phony || CMakeFiles/Rod_Cutting_problem.dir
+
+build CMakeFiles/Rod_Cutting_problem.dir/Rod_Cutting_problem.cpp.obj: CXX_COMPILER__Rod_Cutting_problem_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Rod_Cutting_problem.cpp || cmake_object_order_depends_target_Rod_Cutting_problem
+  DEP_FILE = CMakeFiles\Rod_Cutting_problem.dir\Rod_Cutting_problem.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Rod_Cutting_problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rod_Cutting_problem.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Rod_Cutting_problem
+
+
+#############################################
+# Link the executable Rod_Cutting_problem.exe
+
+build Rod_Cutting_problem.exe: CXX_EXECUTABLE_LINKER__Rod_Cutting_problem_Debug CMakeFiles/Rod_Cutting_problem.dir/Rod_Cutting_problem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Rod_Cutting_problem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Rod_Cutting_problem.exe
+  TARGET_IMPLIB = libRod_Cutting_problem.dll.a
+  TARGET_PDB = Rod_Cutting_problem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ladder_Problem
+
+
+#############################################
+# Order-only phony target for Ladder_Problem
+
+build cmake_object_order_depends_target_Ladder_Problem: phony || CMakeFiles/Ladder_Problem.dir
+
+build CMakeFiles/Ladder_Problem.dir/Ladder_Problem.cpp.obj: CXX_COMPILER__Ladder_Problem_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Ladder_Problem.cpp || cmake_object_order_depends_target_Ladder_Problem
+  DEP_FILE = CMakeFiles\Ladder_Problem.dir\Ladder_Problem.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Ladder_Problem.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ladder_Problem.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ladder_Problem
+
+
+#############################################
+# Link the executable Ladder_Problem.exe
+
+build Ladder_Problem.exe: CXX_EXECUTABLE_LINKER__Ladder_Problem_Debug CMakeFiles/Ladder_Problem.dir/Ladder_Problem.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ladder_Problem.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ladder_Problem.exe
+  TARGET_IMPLIB = libLadder_Problem.dll.a
+  TARGET_PDB = Ladder_Problem.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Maximum_Subarray_Sum
+
+
+#############################################
+# Order-only phony target for Maximum_Subarray_Sum
+
+build cmake_object_order_depends_target_Maximum_Subarray_Sum: phony || CMakeFiles/Maximum_Subarray_Sum.dir
+
+build CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj: CXX_COMPILER__Maximum_Subarray_Sum_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Maximum_Subarray_Sum.cpp || cmake_object_order_depends_target_Maximum_Subarray_Sum
+  DEP_FILE = CMakeFiles\Maximum_Subarray_Sum.dir\Maximum_Subarray_Sum.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Maximum_Subarray_Sum
+
+
+#############################################
+# Link the executable Maximum_Subarray_Sum.exe
+
+build Maximum_Subarray_Sum.exe: CXX_EXECUTABLE_LINKER__Maximum_Subarray_Sum_Debug CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Maximum_Subarray_Sum.exe
+  TARGET_IMPLIB = libMaximum_Subarray_Sum.dll.a
+  TARGET_PDB = Maximum_Subarray_Sum.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target MInimum_steps_to_one
@@ -172,18 +238,6 @@ build Min_Coin_change.exe: CXX_EXECUTABLE_LINKER__Min_Coin_change_Debug CMakeFil
   TARGET_IMPLIB = libMin_Coin_change.dll.a
   TARGET_PDB = Min_Coin_change.exe.dbg
 
-
-#############################################
-# Utility command for rebuild_cache
-
-build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\purid\Desktop\DSA\DynamicProgramming\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\purid\Desktop\DSA\DynamicProgramming -BC:\Users\purid\Desktop\DSA\DynamicProgramming\cmake-build-debug"
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build rebuild_cache: phony CMakeFiles/rebuild_cache.util
-
 # =============================================================================
 # Object build statements for EXECUTABLE target Wines_Problem
 
@@ -217,6 +271,39 @@ build Wines_Problem.exe: CXX_EXECUTABLE_LINKER__Wines_Problem_Debug CMakeFiles/W
   TARGET_IMPLIB = libWines_Problem.dll.a
   TARGET_PDB = Wines_Problem.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Longest_Common_Subsequence
+
+
+#############################################
+# Order-only phony target for Longest_Common_Subsequence
+
+build cmake_object_order_depends_target_Longest_Common_Subsequence: phony || CMakeFiles/Longest_Common_Subsequence.dir
+
+build CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj: CXX_COMPILER__Longest_Common_Subsequence_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Longest_Common_Subsequence.cpp || cmake_object_order_depends_target_Longest_Common_Subsequence
+  DEP_FILE = CMakeFiles\Longest_Common_Subsequence.dir\Longest_Common_Subsequence.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Longest_Common_Subsequence.dir
+  OBJECT_FILE_DIR = CMakeFiles\Longest_Common_Subsequence.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Longest_Common_Subsequence
+
+
+#############################################
+# Link the executable Longest_Common_Subsequence.exe
+
+build Longest_Common_Subsequence.exe: CXX_EXECUTABLE_LINKER__Longest_Common_Subsequence_Debug CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Longest_Common_Subsequence.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Longest_Common_Subsequence.exe
+  TARGET_IMPLIB = libLongest_Common_Subsequence.dll.a
+  TARGET_PDB = Longest_Common_Subsequence.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -228,16 +315,34 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D C:\Users\purid\Desktop\DSA\DynamicProgramming\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\purid\Desktop\DSA\DynamicProgramming -BC:\Users\purid\Desktop\DSA\DynamicProgramming\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
 # =============================================================================
 # Target aliases.
 
 build Fibonacci_Series: phony Fibonacci_Series.exe
+
+build Ladder_Problem: phony Ladder_Problem.exe
+
+build Longest_Common_Subsequence: phony Longest_Common_Subsequence.exe
 
 build MInimum_steps_to_one: phony MInimum_steps_to_one.exe
 
 build Maximum_Subarray_Sum: phony Maximum_Subarray_Sum.exe
 
 build Min_Coin_change: phony Min_Coin_change.exe
+
+build Rod_Cutting_problem: phony Rod_Cutting_problem.exe
 
 build Wines_Problem: phony Wines_Problem.exe
 
@@ -249,7 +354,7 @@ build Wines_Problem: phony Wines_Problem.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug
 
-build all: phony Maximum_Subarray_Sum.exe Fibonacci_Series.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe
+build all: phony Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe
 
 # =============================================================================
 # Built-in targets
