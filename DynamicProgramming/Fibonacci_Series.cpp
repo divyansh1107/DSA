@@ -33,6 +33,25 @@ int fib_bu(int n){
 
 }
 
+int fibSpaceOpt(int n){
+    if(n==0 or n==1){
+        return n;
+    }
+    int a=0;
+    int b=1;
+    int c;
+    for(int i=2;i<=n;i++){
+        c=a+b;
+        //as only last two values are needed to be added
+        a=b;
+        b=c;
+
+    }
+    return c;
+}
+
+//reduced space cop. to O(1)
+
 int main(){
     int n;
     cin>>n;
