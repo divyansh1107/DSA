@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target Maximum_Subarray_Sum
+
+
+#############################################
+# Order-only phony target for Maximum_Subarray_Sum
+
+build cmake_object_order_depends_target_Maximum_Subarray_Sum: phony || CMakeFiles/Maximum_Subarray_Sum.dir
+
+build CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj: CXX_COMPILER__Maximum_Subarray_Sum_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Maximum_Subarray_Sum.cpp || cmake_object_order_depends_target_Maximum_Subarray_Sum
+  DEP_FILE = CMakeFiles\Maximum_Subarray_Sum.dir\Maximum_Subarray_Sum.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
+  OBJECT_FILE_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Maximum_Subarray_Sum
+
+
+#############################################
+# Link the executable Maximum_Subarray_Sum.exe
+
+build Maximum_Subarray_Sum.exe: CXX_EXECUTABLE_LINKER__Maximum_Subarray_Sum_Debug CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Maximum_Subarray_Sum.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Maximum_Subarray_Sum.exe
+  TARGET_IMPLIB = libMaximum_Subarray_Sum.dll.a
+  TARGET_PDB = Maximum_Subarray_Sum.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Fibonacci_Series
 
 
@@ -202,6 +235,8 @@ build Fibonacci_Series: phony Fibonacci_Series.exe
 
 build MInimum_steps_to_one: phony MInimum_steps_to_one.exe
 
+build Maximum_Subarray_Sum: phony Maximum_Subarray_Sum.exe
+
 build Min_Coin_change: phony Min_Coin_change.exe
 
 build Wines_Problem: phony Wines_Problem.exe
@@ -214,7 +249,7 @@ build Wines_Problem: phony Wines_Problem.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug
 
-build all: phony Fibonacci_Series.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe
+build all: phony Maximum_Subarray_Sum.exe Fibonacci_Series.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe
 
 # =============================================================================
 # Built-in targets

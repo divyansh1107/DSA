@@ -1,6 +1,6 @@
 # ninja log v5
 1	1272	6642344335919333	CMakeFiles/DynamicProgramming.dir/main.cpp.obj	3ddd7dede4ae2d23
-2	596	6642939973232078	build.ninja	7aff274337653a44
+2	596	6642993030092224	build.ninja	7aff274337653a44
 1275	1550	6642344338639632	DynamicProgramming.exe	5b318fd4f07253af
 1	1139	6642927319029698	CMakeFiles/Fibonacci_Series.dir/Fibonacci_Series.cpp.obj	d35003f31799df17
 1140	1419	6642927321794958	Fibonacci_Series.exe	e69781692e8ecd29
@@ -8,3 +8,9 @@
 1	894	6642939415649389	CMakeFiles/Min_Coin_change.dir/Min_Coin_change.cpp.obj	72a596e22d6517e
 1	905	6642981240687241	CMakeFiles/Wines_Problem.dir/Wines_Problem.cpp.obj	9e1f3167a6747ab
 906	1067	6642981242267205	Wines_Problem.exe	2a178509dce729e0
+0	878	6643005595587271	CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj	174326dc6ec55a98
+878	1040	6643005597156950	Maximum_Subarray_Sum.exe	8762b7163dc039d8
+1	871	6643006741554122	CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj	174326dc6ec55a98
+871	1049	6643006743290557	Maximum_Subarray_Sum.exe	8762b7163dc039d8
+2	883	6643010527283134	CMakeFiles/Maximum_Subarray_Sum.dir/Maximum_Subarray_Sum.cpp.obj	174326dc6ec55a98
+884	1045	6643010528840494	Maximum_Subarray_Sum.exe	8762b7163dc039d8
