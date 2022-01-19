@@ -31,7 +31,7 @@ int maxSumSpaceOpt(int a[],int n){
         }
         max_so_far=max(current_sum,max_so_far);
     }
-    return current_sum;
+    return max_so_far;
 }
 int main(){
     int arr[]={-3,2,5,-1,6,3,-2,7,-5,2};
