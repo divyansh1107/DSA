@@ -82,8 +82,8 @@ build Fibonacci_Series.exe: CXX_EXECUTABLE_LINKER__Fibonacci_Series_Debug CMakeF
 
 build cmake_object_order_depends_target_MInimum_steps_to_one: phony || CMakeFiles/MInimum_steps_to_one.dir
 
-build CMakeFiles/MInimum_steps_to_one.dir/MInimum_steps_to_one.cpp.obj: CXX_COMPILER__MInimum_steps_to_one_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/MInimum_steps_to_one.cpp || cmake_object_order_depends_target_MInimum_steps_to_one
-  DEP_FILE = CMakeFiles\MInimum_steps_to_one.dir\MInimum_steps_to_one.cpp.obj.d
+build CMakeFiles/MInimum_steps_to_one.dir/Minimum_steps_to_one.cpp.obj: CXX_COMPILER__MInimum_steps_to_one_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Minimum_steps_to_one.cpp || cmake_object_order_depends_target_MInimum_steps_to_one
+  DEP_FILE = CMakeFiles\MInimum_steps_to_one.dir\Minimum_steps_to_one.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\MInimum_steps_to_one.dir
   OBJECT_FILE_DIR = CMakeFiles\MInimum_steps_to_one.dir
@@ -96,7 +96,7 @@ build CMakeFiles/MInimum_steps_to_one.dir/MInimum_steps_to_one.cpp.obj: CXX_COMP
 #############################################
 # Link the executable MInimum_steps_to_one.exe
 
-build MInimum_steps_to_one.exe: CXX_EXECUTABLE_LINKER__MInimum_steps_to_one_Debug CMakeFiles/MInimum_steps_to_one.dir/MInimum_steps_to_one.cpp.obj
+build MInimum_steps_to_one.exe: CXX_EXECUTABLE_LINKER__MInimum_steps_to_one_Debug CMakeFiles/MInimum_steps_to_one.dir/Minimum_steps_to_one.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MInimum_steps_to_one.dir
@@ -105,6 +105,39 @@ build MInimum_steps_to_one.exe: CXX_EXECUTABLE_LINKER__MInimum_steps_to_one_Debu
   TARGET_FILE = MInimum_steps_to_one.exe
   TARGET_IMPLIB = libMInimum_steps_to_one.dll.a
   TARGET_PDB = MInimum_steps_to_one.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Min_Coin_change
+
+
+#############################################
+# Order-only phony target for Min_Coin_change
+
+build cmake_object_order_depends_target_Min_Coin_change: phony || CMakeFiles/Min_Coin_change.dir
+
+build CMakeFiles/Min_Coin_change.dir/Min_Coin_change.cpp.obj: CXX_COMPILER__Min_Coin_change_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Min_Coin_change.cpp || cmake_object_order_depends_target_Min_Coin_change
+  DEP_FILE = CMakeFiles\Min_Coin_change.dir\Min_Coin_change.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Min_Coin_change.dir
+  OBJECT_FILE_DIR = CMakeFiles\Min_Coin_change.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Min_Coin_change
+
+
+#############################################
+# Link the executable Min_Coin_change.exe
+
+build Min_Coin_change.exe: CXX_EXECUTABLE_LINKER__Min_Coin_change_Debug CMakeFiles/Min_Coin_change.dir/Min_Coin_change.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Min_Coin_change.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Min_Coin_change.exe
+  TARGET_IMPLIB = libMin_Coin_change.dll.a
+  TARGET_PDB = Min_Coin_change.exe.dbg
 
 
 #############################################
@@ -136,6 +169,8 @@ build Fibonacci_Series: phony Fibonacci_Series.exe
 
 build MInimum_steps_to_one: phony MInimum_steps_to_one.exe
 
+build Min_Coin_change: phony Min_Coin_change.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -144,7 +179,7 @@ build MInimum_steps_to_one: phony MInimum_steps_to_one.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug
 
-build all: phony Fibonacci_Series.exe MInimum_steps_to_one.exe
+build all: phony Fibonacci_Series.exe MInimum_steps_to_one.exe Min_Coin_change.exe
 
 # =============================================================================
 # Built-in targets
