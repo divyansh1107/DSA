@@ -1,7 +1,8 @@
 # ninja log v5
 1	1272	6642344335919333	CMakeFiles/DynamicProgramming.dir/main.cpp.obj	3ddd7dede4ae2d23
-2	596	6643220197997667	build.ninja	7aff274337653a44
+2	596	6643891389039097	build.ninja	7aff274337653a44
 1275	1550	6642344338639632	DynamicProgramming.exe	5b318fd4f07253af
+1061	1225	6643889017999283	Longest_increasing_subsequence_1.exe	9df4e09de8213cc3
 1	1139	6642927319029698	CMakeFiles/Fibonacci_Series.dir/Fibonacci_Series.cpp.obj	d35003f31799df17
 1140	1419	6642927321794958	Fibonacci_Series.exe	e69781692e8ecd29
 894	1054	6642939417209666	Min_Coin_change.exe	5c9fe9c097f7f60c
@@ -14,13 +15,6 @@
 880	1037	6643164539873510	Ladder_Problem.exe	140f439f44c9c398
 1	944	6643210928531260	CMakeFiles/Rod_Cutting_problem.dir/Rod_Cutting_problem.cpp.obj	440f81c34e21a31c
 945	1109	6643210930139661	Rod_Cutting_problem.exe	2b24d07043cc7bde
-0	942	6643228836003979	CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj	dd55813058bb323c
-943	1121	6643228837723972	Longest_Common_Subsequence.exe	440456f5e0d41205
-1	894	6643229949281887	CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj	dd55813058bb323c
-894	1053	6643229950852126	Longest_Common_Subsequence.exe	440456f5e0d41205
-1	882	6643230084902375	CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj	dd55813058bb323c
-883	1040	6643230086442374	Longest_Common_Subsequence.exe	440456f5e0d41205
-1	1047	6643244847841686	CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj	dd55813058bb323c
-1047	1220	6643244849524177	Longest_Common_Subsequence.exe	440456f5e0d41205
 1	969	6643245064326580	CMakeFiles/Longest_Common_Subsequence.dir/Longest_Common_Subsequence.cpp.obj	dd55813058bb323c
 970	1133	6643245065906213	Longest_Common_Subsequence.exe	440456f5e0d41205
+2	1060	6643889016388730	CMakeFiles/Longest_increasing_subsequence_1.dir/Longest_increasing_subsequence_1.cpp.obj	d1139e3ee45d70d0

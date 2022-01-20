@@ -304,6 +304,72 @@ build Longest_Common_Subsequence.exe: CXX_EXECUTABLE_LINKER__Longest_Common_Subs
   TARGET_IMPLIB = libLongest_Common_Subsequence.dll.a
   TARGET_PDB = Longest_Common_Subsequence.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Longest_increasing_subsequence_1
+
+
+#############################################
+# Order-only phony target for Longest_increasing_subsequence_1
+
+build cmake_object_order_depends_target_Longest_increasing_subsequence_1: phony || CMakeFiles/Longest_increasing_subsequence_1.dir
+
+build CMakeFiles/Longest_increasing_subsequence_1.dir/Longest_increasing_subsequence_1.cpp.obj: CXX_COMPILER__Longest_increasing_subsequence_1_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Longest_increasing_subsequence_1.cpp || cmake_object_order_depends_target_Longest_increasing_subsequence_1
+  DEP_FILE = CMakeFiles\Longest_increasing_subsequence_1.dir\Longest_increasing_subsequence_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Longest_increasing_subsequence_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Longest_increasing_subsequence_1.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Longest_increasing_subsequence_1
+
+
+#############################################
+# Link the executable Longest_increasing_subsequence_1.exe
+
+build Longest_increasing_subsequence_1.exe: CXX_EXECUTABLE_LINKER__Longest_increasing_subsequence_1_Debug CMakeFiles/Longest_increasing_subsequence_1.dir/Longest_increasing_subsequence_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Longest_increasing_subsequence_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Longest_increasing_subsequence_1.exe
+  TARGET_IMPLIB = libLongest_increasing_subsequence_1.dll.a
+  TARGET_PDB = Longest_increasing_subsequence_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Longest_increasing_subsequence_2
+
+
+#############################################
+# Order-only phony target for Longest_increasing_subsequence_2
+
+build cmake_object_order_depends_target_Longest_increasing_subsequence_2: phony || CMakeFiles/Longest_increasing_subsequence_2.dir
+
+build CMakeFiles/Longest_increasing_subsequence_2.dir/Longest_increasing_subsequence_2.cpp.obj: CXX_COMPILER__Longest_increasing_subsequence_2_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Longest_increasing_subsequence_2.cpp || cmake_object_order_depends_target_Longest_increasing_subsequence_2
+  DEP_FILE = CMakeFiles\Longest_increasing_subsequence_2.dir\Longest_increasing_subsequence_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Longest_increasing_subsequence_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Longest_increasing_subsequence_2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Longest_increasing_subsequence_2
+
+
+#############################################
+# Link the executable Longest_increasing_subsequence_2.exe
+
+build Longest_increasing_subsequence_2.exe: CXX_EXECUTABLE_LINKER__Longest_increasing_subsequence_2_Debug CMakeFiles/Longest_increasing_subsequence_2.dir/Longest_increasing_subsequence_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Longest_increasing_subsequence_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Longest_increasing_subsequence_2.exe
+  TARGET_IMPLIB = libLongest_increasing_subsequence_2.dll.a
+  TARGET_PDB = Longest_increasing_subsequence_2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -336,6 +402,10 @@ build Ladder_Problem: phony Ladder_Problem.exe
 
 build Longest_Common_Subsequence: phony Longest_Common_Subsequence.exe
 
+build Longest_increasing_subsequence_1: phony Longest_increasing_subsequence_1.exe
+
+build Longest_increasing_subsequence_2: phony Longest_increasing_subsequence_2.exe
+
 build MInimum_steps_to_one: phony MInimum_steps_to_one.exe
 
 build Maximum_Subarray_Sum: phony Maximum_Subarray_Sum.exe
@@ -354,7 +424,7 @@ build Wines_Problem: phony Wines_Problem.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug
 
-build all: phony Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe
+build all: phony Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe Longest_increasing_subsequence_1.exe Longest_increasing_subsequence_2.exe
 
 # =============================================================================
 # Built-in targets

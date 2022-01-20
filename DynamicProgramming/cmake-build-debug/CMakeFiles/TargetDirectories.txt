@@ -6,5 +6,7 @@ C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/MInim
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Min_Coin_change.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Wines_Problem.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Longest_Common_Subsequence.dir
+C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Longest_increasing_subsequence_1.dir
+C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Longest_increasing_subsequence_2.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
