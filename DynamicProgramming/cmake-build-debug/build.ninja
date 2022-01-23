@@ -469,6 +469,39 @@ build Mixture_Spoj.exe: CXX_EXECUTABLE_LINKER__Mixture_Spoj_Debug CMakeFiles/Mix
   TARGET_IMPLIB = libMixture_Spoj.dll.a
   TARGET_PDB = Mixture_Spoj.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Robots_ans_paths
+
+
+#############################################
+# Order-only phony target for Robots_ans_paths
+
+build cmake_object_order_depends_target_Robots_ans_paths: phony || CMakeFiles/Robots_ans_paths.dir
+
+build CMakeFiles/Robots_ans_paths.dir/Robots_ans_paths.cpp.obj: CXX_COMPILER__Robots_ans_paths_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Robots_ans_paths.cpp || cmake_object_order_depends_target_Robots_ans_paths
+  DEP_FILE = CMakeFiles\Robots_ans_paths.dir\Robots_ans_paths.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Robots_ans_paths.dir
+  OBJECT_FILE_DIR = CMakeFiles\Robots_ans_paths.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Robots_ans_paths
+
+
+#############################################
+# Link the executable Robots_ans_paths.exe
+
+build Robots_ans_paths.exe: CXX_EXECUTABLE_LINKER__Robots_ans_paths_Debug CMakeFiles/Robots_ans_paths.dir/Robots_ans_paths.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Robots_ans_paths.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Robots_ans_paths.exe
+  TARGET_IMPLIB = libRobots_ans_paths.dll.a
+  TARGET_PDB = Robots_ans_paths.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -517,6 +550,8 @@ build Min_Coin_change: phony Min_Coin_change.exe
 
 build Mixture_Spoj: phony Mixture_Spoj.exe
 
+build Robots_ans_paths: phony Robots_ans_paths.exe
+
 build Rod_Cutting_problem: phony Rod_Cutting_problem.exe
 
 build Wines_Problem: phony Wines_Problem.exe
@@ -529,7 +564,7 @@ build Wines_Problem: phony Wines_Problem.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug
 
-build all: phony Matrix_Chain_Multiplication.exe Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe Longest_increasing_subsequence_1.exe Longest_increasing_subsequence_2.exe CELL_MITOSIS.exe Mixture_Spoj.exe
+build all: phony Matrix_Chain_Multiplication.exe Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe Longest_increasing_subsequence_1.exe Longest_increasing_subsequence_2.exe CELL_MITOSIS.exe Mixture_Spoj.exe Robots_ans_paths.exe
 
 # =============================================================================
 # Built-in targets

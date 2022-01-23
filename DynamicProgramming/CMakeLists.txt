@@ -18,3 +18,4 @@ add_executable(Longest_increasing_subsequence_2 Longest_increasing_subsequence_2
 add_executable(Matrix_Chain_Multiplication Matrix_Chain_Multiplication.cpp)
 add_executable(CELL_MITOSIS CELL_MITOSIS.cpp)
 add_executable(Mixture_Spoj Mixture_Spoj.cpp)
+add_executable(Robots_ans_paths Robots_ans_paths.cpp)
