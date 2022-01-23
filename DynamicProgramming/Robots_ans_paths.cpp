@@ -5,6 +5,7 @@ using namespace std;
 
 int dp[1001][1001];
 int numWays(int Ro, int Col){
+    //Buttom up dp
     //Base case
     if(dp[0][0]==-1){
         return 0;
@@ -54,6 +55,7 @@ int main(){
         dp[X-1][Y-1]=-1;
 
     }
+
     cout<<numWays(M,N)<<endl;
     return 0;
 }
