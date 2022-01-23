@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DynamicProgramming",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CELL_MITOSIS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CELL_MITOSIS-Debug-c84ace7e4575cd461cf8.json",
+					"name" : "CELL_MITOSIS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fibonacci_Series::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fibonacci_Series-Debug-30588026d943d8ead851.json",
+					"name" : "Fibonacci_Series",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ladder_Problem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ladder_Problem-Debug-5f00ab2032b12a6e8c2b.json",
+					"name" : "Ladder_Problem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Longest_Common_Subsequence::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Longest_Common_Subsequence-Debug-1e788d3a472bdc4ee024.json",
+					"name" : "Longest_Common_Subsequence",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Longest_increasing_subsequence_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Longest_increasing_subsequence_1-Debug-41ffcb7571027cf28f93.json",
+					"name" : "Longest_increasing_subsequence_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Longest_increasing_subsequence_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Longest_increasing_subsequence_2-Debug-dbd8d82e4c9137f160e8.json",
+					"name" : "Longest_increasing_subsequence_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MInimum_steps_to_one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MInimum_steps_to_one-Debug-5cde9dba12d75e215b89.json",
+					"name" : "MInimum_steps_to_one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Matrix_Chain_Multiplication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Matrix_Chain_Multiplication-Debug-a5abd74717ce9d8a0d59.json",
+					"name" : "Matrix_Chain_Multiplication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Maximum_Subarray_Sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Maximum_Subarray_Sum-Debug-f3772682d12575016729.json",
+					"name" : "Maximum_Subarray_Sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Min_Coin_change::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Min_Coin_change-Debug-31a550d63155da3cdd33.json",
+					"name" : "Min_Coin_change",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mixture_Spoj::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mixture_Spoj-Debug-f4adf0f0d70dc7ba7e8e.json",
+					"name" : "Mixture_Spoj",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Robots_ans_paths::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Robots_ans_paths-Debug-083a1ffd1adf6e0613f4.json",
+					"name" : "Robots_ans_paths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Rod_Cutting_problem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Rod_Cutting_problem-Debug-cebf67131cb0906a5535.json",
+					"name" : "Rod_Cutting_problem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Wines_Problem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Wines_Problem-Debug-72804c74c86051f34144.json",
+					"name" : "Wines_Problem",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug",
+		"source" : "C:/Users/purid/Desktop/DSA/DynamicProgramming"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
