@@ -41,6 +41,39 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target Matrix_Chain_Multiplication
+
+
+#############################################
+# Order-only phony target for Matrix_Chain_Multiplication
+
+build cmake_object_order_depends_target_Matrix_Chain_Multiplication: phony || CMakeFiles/Matrix_Chain_Multiplication.dir
+
+build CMakeFiles/Matrix_Chain_Multiplication.dir/Matrix_Chain_Multiplication.cpp.obj: CXX_COMPILER__Matrix_Chain_Multiplication_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Matrix_Chain_Multiplication.cpp || cmake_object_order_depends_target_Matrix_Chain_Multiplication
+  DEP_FILE = CMakeFiles\Matrix_Chain_Multiplication.dir\Matrix_Chain_Multiplication.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Matrix_Chain_Multiplication.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matrix_Chain_Multiplication.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Matrix_Chain_Multiplication
+
+
+#############################################
+# Link the executable Matrix_Chain_Multiplication.exe
+
+build Matrix_Chain_Multiplication.exe: CXX_EXECUTABLE_LINKER__Matrix_Chain_Multiplication_Debug CMakeFiles/Matrix_Chain_Multiplication.dir/Matrix_Chain_Multiplication.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Matrix_Chain_Multiplication.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Matrix_Chain_Multiplication.exe
+  TARGET_IMPLIB = libMatrix_Chain_Multiplication.dll.a
+  TARGET_PDB = Matrix_Chain_Multiplication.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Fibonacci_Series
 
 
@@ -370,6 +403,72 @@ build Longest_increasing_subsequence_2.exe: CXX_EXECUTABLE_LINKER__Longest_incre
   TARGET_IMPLIB = libLongest_increasing_subsequence_2.dll.a
   TARGET_PDB = Longest_increasing_subsequence_2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target CELL_MITOSIS
+
+
+#############################################
+# Order-only phony target for CELL_MITOSIS
+
+build cmake_object_order_depends_target_CELL_MITOSIS: phony || CMakeFiles/CELL_MITOSIS.dir
+
+build CMakeFiles/CELL_MITOSIS.dir/CELL_MITOSIS.cpp.obj: CXX_COMPILER__CELL_MITOSIS_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/CELL_MITOSIS.cpp || cmake_object_order_depends_target_CELL_MITOSIS
+  DEP_FILE = CMakeFiles\CELL_MITOSIS.dir\CELL_MITOSIS.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\CELL_MITOSIS.dir
+  OBJECT_FILE_DIR = CMakeFiles\CELL_MITOSIS.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target CELL_MITOSIS
+
+
+#############################################
+# Link the executable CELL_MITOSIS.exe
+
+build CELL_MITOSIS.exe: CXX_EXECUTABLE_LINKER__CELL_MITOSIS_Debug CMakeFiles/CELL_MITOSIS.dir/CELL_MITOSIS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\CELL_MITOSIS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = CELL_MITOSIS.exe
+  TARGET_IMPLIB = libCELL_MITOSIS.dll.a
+  TARGET_PDB = CELL_MITOSIS.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Mixture_Spoj
+
+
+#############################################
+# Order-only phony target for Mixture_Spoj
+
+build cmake_object_order_depends_target_Mixture_Spoj: phony || CMakeFiles/Mixture_Spoj.dir
+
+build CMakeFiles/Mixture_Spoj.dir/Mixture_Spoj.cpp.obj: CXX_COMPILER__Mixture_Spoj_Debug C$:/Users/purid/Desktop/DSA/DynamicProgramming/Mixture_Spoj.cpp || cmake_object_order_depends_target_Mixture_Spoj
+  DEP_FILE = CMakeFiles\Mixture_Spoj.dir\Mixture_Spoj.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Mixture_Spoj.dir
+  OBJECT_FILE_DIR = CMakeFiles\Mixture_Spoj.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Mixture_Spoj
+
+
+#############################################
+# Link the executable Mixture_Spoj.exe
+
+build Mixture_Spoj.exe: CXX_EXECUTABLE_LINKER__Mixture_Spoj_Debug CMakeFiles/Mixture_Spoj.dir/Mixture_Spoj.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Mixture_Spoj.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Mixture_Spoj.exe
+  TARGET_IMPLIB = libMixture_Spoj.dll.a
+  TARGET_PDB = Mixture_Spoj.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -396,6 +495,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build CELL_MITOSIS: phony CELL_MITOSIS.exe
+
 build Fibonacci_Series: phony Fibonacci_Series.exe
 
 build Ladder_Problem: phony Ladder_Problem.exe
@@ -408,9 +509,13 @@ build Longest_increasing_subsequence_2: phony Longest_increasing_subsequence_2.e
 
 build MInimum_steps_to_one: phony MInimum_steps_to_one.exe
 
+build Matrix_Chain_Multiplication: phony Matrix_Chain_Multiplication.exe
+
 build Maximum_Subarray_Sum: phony Maximum_Subarray_Sum.exe
 
 build Min_Coin_change: phony Min_Coin_change.exe
+
+build Mixture_Spoj: phony Mixture_Spoj.exe
 
 build Rod_Cutting_problem: phony Rod_Cutting_problem.exe
 
@@ -424,7 +529,7 @@ build Wines_Problem: phony Wines_Problem.exe
 #############################################
 # Folder: C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug
 
-build all: phony Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe Longest_increasing_subsequence_1.exe Longest_increasing_subsequence_2.exe
+build all: phony Matrix_Chain_Multiplication.exe Fibonacci_Series.exe Rod_Cutting_problem.exe Ladder_Problem.exe Maximum_Subarray_Sum.exe MInimum_steps_to_one.exe Min_Coin_change.exe Wines_Problem.exe Longest_Common_Subsequence.exe Longest_increasing_subsequence_1.exe Longest_increasing_subsequence_2.exe CELL_MITOSIS.exe Mixture_Spoj.exe
 
 # =============================================================================
 # Built-in targets

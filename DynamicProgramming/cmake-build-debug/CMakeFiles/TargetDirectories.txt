@@ -1,3 +1,4 @@
+C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Matrix_Chain_Multiplication.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Fibonacci_Series.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Rod_Cutting_problem.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Ladder_Problem.dir
@@ -8,5 +9,7 @@ C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Wines
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Longest_Common_Subsequence.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Longest_increasing_subsequence_1.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Longest_increasing_subsequence_2.dir
+C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/CELL_MITOSIS.dir
+C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/Mixture_Spoj.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/purid/Desktop/DSA/DynamicProgramming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
