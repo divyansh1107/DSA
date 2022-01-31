@@ -6,7 +6,7 @@ int profit(int wines[],int i,int j,int y,int dp[][100]){
         return 0;
     }
     if(dp[i][j]!=0) {
-        return dp[i][j];//2D dp
+        return dp[i][j];//2D DP
 
     }
     int op1=wines[i]*y + profit(wines,i+1,j,y+1,dp);
